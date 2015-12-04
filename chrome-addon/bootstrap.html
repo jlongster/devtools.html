@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+chrome.devtools.panels.create("My Panel",
+    "icon.png",
+    "devtools.html",
+    function(panel) {
+      console.log("sweet, loaded");
+    }
+);
+    </script>
+  </body>
+</html>

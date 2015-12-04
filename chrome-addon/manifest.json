@@ -1,0 +1,7 @@
+{
+  "manifest_version": 2,
+  "name": "devtools.html",
+  "description": "just a test",
+  "version": "1.0",
+  "devtools_page": "bootstrap.html"
+}
